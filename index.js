@@ -26,9 +26,9 @@ function render(leads) {
   for (let i = 0; i < leads.length; i++) {
     listItems += `
             <li>
-                <a target='_blank' href='${leads[i]}'>
+                <p >
                     ${leads[i]}
-                </a>
+                </p>
             </li>
         `;
   }
